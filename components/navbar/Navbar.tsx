@@ -11,8 +11,8 @@ const LINKS = [
     path: "#about",
   },
   {
-    title: "Service",
-    path: "#service",
+    title: "Services",
+    path: "#services",
   },
   {
     title: "Portfolio",
@@ -28,9 +28,9 @@ const Navbar = () => {
   const [isHover, setIsHover] = useState<boolean>(false);
 
   return (
-    <nav className="flex h-16 items-center justify-between">
+    <nav className="flex h-16 items-center justify-between text-sm">
       <div
-        className="group flex cursor-pointer items-center gap-5"
+        className="group flex cursor-pointer items-center gap-4"
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
       >
