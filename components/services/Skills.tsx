@@ -22,7 +22,7 @@ const SKILLS = [
 
 const Skills = () => {
   return (
-    <div className="flex w-full flex-col gap-8 md:py-10">
+    <div className="flex w-full flex-col gap-12 md:py-10">
       {SKILLS.map((skill) => (
         <div
           key={skill.title}
