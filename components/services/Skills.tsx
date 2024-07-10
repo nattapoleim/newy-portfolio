@@ -4,11 +4,6 @@ import { PiMonitorArrowUp } from "react-icons/pi";
 
 const SKILLS = [
   {
-    title: "UX/UI Design",
-    desc: "Design a website or app with Figma",
-    icon: <PiMonitorArrowUp />,
-  },
-  {
     title: "Front-End Develop",
     desc: "Coding front-end with Tailwind CSS, React JS",
     icon: <HiOutlineCodeBracketSquare />,
@@ -17,6 +12,11 @@ const SKILLS = [
     title: "Back-End Develop",
     desc: "Coding back-end with Node JS",
     icon: <HiOutlineCodeBracketSquare />,
+  },
+  {
+    title: "UX/UI Design",
+    desc: "Design a website or app with Figma",
+    icon: <PiMonitorArrowUp />,
   },
 ];
 

@@ -5,7 +5,10 @@ import { Button } from "../ui/button";
 
 const Hero = () => {
   return (
-    <section className="mt-20 flex flex-col items-center justify-center gap-5 text-center">
+    <section
+      id="about"
+      className="mt-20 flex flex-col items-center justify-center gap-5 text-center"
+    >
       <Image
         src={Me}
         width={100}
@@ -14,14 +17,12 @@ const Hero = () => {
         className="rounded-full"
       />
       <div className="text-xl">Hi! I&apos;m Vaan 👋🏻</div>
-      <div className="text-4xl leading-tight">
-        Website design, app, <br /> and developer.
-      </div>
+      <div className="text-4xl leading-tight">Website developer.</div>
       <p className="text-second">
-        a junior <span className="underline underline-offset-2">UI</span> and{" "}
-        <span className="underline underline-offset-2">Web Designer.</span> I
-        specialize in UI <br />
-        design, responsive web design and visual <br />
+        a junior{" "}
+        <span className="underline underline-offset-2">Web Developer.</span>{" "}
+        <br /> I specialize in Front-end, responsive web design and visual{" "}
+        <br />
         development.
       </p>
       <div className="mt-5 flex items-center justify-center gap-5">

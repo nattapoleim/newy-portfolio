@@ -16,7 +16,7 @@ const Experience = () => {
 
       <div className="mt-3 flex gap-6">
         <div className="flex flex-col gap-2">
-          <span className="text-3xl">15+</span>
+          <span className="text-3xl">2+</span>
           <span className="text-sm">Project complete</span>
         </div>
         <div className="flex flex-col gap-2">
