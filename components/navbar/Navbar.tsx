@@ -4,7 +4,7 @@ import { useState } from "react";
 
 // icons
 import { BiMenuAltRight } from "react-icons/bi";
-import { IoCloseOutline, IoMail, IoMailOutline } from "react-icons/io5";
+import { IoMail, IoMailOutline } from "react-icons/io5";
 
 // components
 import {
